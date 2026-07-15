@@ -10,8 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "normalize-scss": "^8.0.0",
+    "normalize.scss": "^0.1.0",
     "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "react-dom": "^19.2.7",
+    "sass-reset": "^1.0.9"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

@@ -1,11 +1,17 @@
+import 'sass-reset';
 import './Main.scss'
+import Header from "./Components/Header/Header.jsx";
+import Footer from "./Components/Footer/Footer.jsx";
+import AddTask from "./Components/AddTask/AddTask.jsx";
 
 function App() {
 
   return (
       <>
         <section id="center">
-          <h1>Todo</h1>
+          <Header />
+            <AddTask />
+            <Footer />
         </section>
       </>
   )
