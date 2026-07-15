@@ -1,6 +1,6 @@
 import "./AddTask.scss";
-import "../Button/Button.jsx";
-import Button from "../Button/Button.jsx";
+import "../../Button/Button.jsx";
+import Button from "../../Button/Button.jsx";
 
 const AddTask = () => {
     const handleSubmit = (e) => {
@@ -18,9 +18,8 @@ const AddTask = () => {
                 done: false,
             })
         });
-        const tasks = r.json();
-        console.log(tasks);
 
+        form.reset();
     }
 
     return (
