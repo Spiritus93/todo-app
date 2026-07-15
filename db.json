@@ -1,14 +1,14 @@
 {
   "tasks": [
     {
-      "id": "1",
       "title": "Learn React Native",
-      "done": false
+      "done": false,
+      "id": "1"
     },
     {
-      "id": "2",
       "title": "Learn SCSS",
-      "done": false
+      "done": false,
+      "id": "2"
     },
     {
       "id": "3",
